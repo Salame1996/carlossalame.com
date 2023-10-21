@@ -11,36 +11,45 @@ const HeroSection = () => {
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text  bg-gradient-to-r from-purple-400 to-pink-600">
               {" "}
-              Hello, I'm {" "}
+              Hello, I'm{" "}
             </span>
             <br></br>
             <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Carlos Salame.',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'A Full Stack Developer.',
-        1000,
-        'A Web Developer.',
-        1000
-      ]}
-      wrapper="span"
-      speed={50}
-      repeat={Infinity}
-    />
+              sequence={[
+                "Carlos Salame.",
+                1000,
+                "A Full Stack Developer.",
+                1000,
+                "A Web Developer.",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
           </h1>
           <p className="text-white text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem iPSUM JAHIGSKGKDGFKDHGFDKJH SFGDSKJHFGSDKJHF
-            GSDJKHFGSDJKHFGDSKJGSJHFGDSKJHFGDKFJ DJGSDFJKHGSD JHDFG SKJDHFG
-            DSFJKG
+            I'm a Full Stack Developer with a strong passion for computer
+            science and web development. I'm always excited to learn and improve
+            my coding skills.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
+            <button >
+            <a
+              href="#contact"
+              title="Contact"
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black"
+            >
               Hire Me
+            </a>
             </button>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+            <a
+              href="#contact"
+              title="Contact"
+              className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

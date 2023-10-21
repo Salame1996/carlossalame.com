@@ -56,7 +56,7 @@ function AboutSection() {
   };
 
   return (
-    <section className=" text-white">
+    <section id="about" className=" text-white">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/pixelcomputer.png"
@@ -68,16 +68,15 @@ function AboutSection() {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            KJADFH KDH KDHK KHSDFKDHF KDHFS KDFH KSDHF SDKHF SDKHFD KFSKDFSDKHF
-            SDKFH SDKF SKFHDKHF SDKH FDHKF SKDFSKDHF DSKHF SDFHF KSF SFHS KF
-            SFKHS DFKHSD FKS DFK DHSF KSHDFKSD FKS FHSKDFKSDH FKSDF DSKHF SDKFH
-            SDKF SDKFH SDKFHSD KFSD FHSFSDKHF DSKFH DSKFHSDKHFSDKFH SDKFH
-            SDKHFSD KFSDK FSKDF SDFK SDK FSKHF SDKFH SDHKFK SF DSHFSDKFH SDKF SD
-            FHKSDF SDHKF SDFK KSJFKSHFKSFHKSFHKSNFKNSCS KHF DKHF DKF HDSFK
-            HSDFKH SDKFH DFKH DFKH DSFKH DSFKH DFHK SDFKHDS FKHD FKDHF SKDFH
-            SDKFH SDFKH SDKHF GHHGS KHD KSDG SD HSDHGK SDHG SDKGH SDHKG GDSGD
-            KGHDSG SDKG SD SDG DGSHKK GSDGK S KGSDKHGSD HDSG KSD G KSDSGDSGD SDG
-            DSG S
+            I'm a full-stack developer passionate about coding and music. I
+            specialize in web development, with expertise in React, JavaScript,
+            HTML, CSS, PostgreSQL, Express, and MySQL for both front-end and
+            back-end development. I'm also an enthusiastic music producer. My
+            goal is to merge technology and music to create innovative solutions
+            in the music industry. I'm a quick learner, eager to adapt to the
+            evolving tech landscape, and I enjoy collaborating on projects to
+            make a meaningful impact. Let's turn creative visions into digital
+            realities together.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -99,7 +98,9 @@ function AboutSection() {
               Certifications
             </TabButton>
           </div>
-          <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
+          <div className="mt-8">
+            {TAB_DATA.find((t) => t.id === tab).content}
+          </div>
         </div>
       </div>
     </section>
