@@ -9,16 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc">
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React.js</li>
+        <li>MySQL</li>
+        <li>API's</li>
+        <li>Next.js</li>
+        <li>Tailwind</li>
+        <li>Node</li>
+        <li>Express</li>
       </ul>
     ),
   },
@@ -27,8 +27,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul>
-        <li>abc</li>
-        <li>abc</li>
+        <li>Thinkful Bootcamp</li>
+        <li>Computer Science Degree (In progress)</li>
       </ul>
     ),
   },
@@ -37,9 +37,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul>
-        <li>abc</li>
-        <li>abc</li>
-        <li>abc</li>
+        <li>CodeCademy React.js</li>
+        <li>CS50 Harvard X </li>
+        <li>FreeCodeCamp JavaScript</li>
       </ul>
     ),
   },

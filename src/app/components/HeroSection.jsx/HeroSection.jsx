@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text  bg-gradient-to-r from-purple-400 to-pink-600">
+            <span className="text-transparent bg-clip-text  bg-gradient-to-r from-blue-300 to-pink-300 to-red-500">
               {" "}
               Hello, I'm{" "}
             </span>
@@ -34,19 +34,21 @@ const HeroSection = () => {
             my coding skills.
           </p>
           <div>
-            <button >
-            <a
-              href="#contact"
-              title="Contact"
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black"
-            >
-              Hire Me
-            </a>
+            <button>
+              <a
+                href="#contact"
+                title="Contact"
+                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black"
+              >
+                Hire Me
+              </a>
             </button>
             <a
-              href="#contact"
-              title="Contact"
+              href="https://drive.google.com/file/d/1Hhvfg0PqVayl5gQDayM7JNdXEHx7mafQ/view?usp=sharing"
+              title="Download CV"
               className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Download CV
             </a>
