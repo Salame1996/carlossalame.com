@@ -5,6 +5,16 @@ import ProjectTag from "./ProjectTag";
 
 const projectsData = [
   {
+    id: 8,
+    title: "Heart Calculator",
+    description:
+      "Developed a cutting-edge heart rate calculator web application utilizing React.js, meticulously crafted to gauge optimal heart rates for both exercise and rest periods. This intuitive tool empowers users to efficiently monitor their cardiovascular health and enhance their fitness routines with precision.",
+    image: "images/heart-app.png",
+    gitUrl: "https://github.com/Salame1996/heart-rate-web-app",
+    tag: ["All", "Web", "Mobile"],
+    previewUrl: "https://heart-rate-web-at747wgg2-salame1996.vercel.app/",
+  },
+  {
     id: 1,
     title: "Kanye Says",
     description:
@@ -14,6 +24,7 @@ const projectsData = [
     tag: ["All", "Web", "Mobile"],
     previewUrl: "https://kanye-says-hazel.vercel.app/",
   },
+
   {
     id: 2,
     title: "CriticScale",
