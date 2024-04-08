@@ -12,7 +12,7 @@ const projectsData = [
     image: "images/heart-app.png",
     gitUrl: "https://github.com/Salame1996/heart-rate-web-app",
     tag: ["All", "Web", "Mobile"],
-    previewUrl: "https://heart-rate-web-at747wgg2-salame1996.vercel.app/",
+    previewUrl: "https://heart-rate-web-app.vercel.app/",
   },
   {
     id: 1,
