@@ -9,7 +9,7 @@ const projectsData = [
     title: "Discogs Quiz App",
     description:
       "A quiz app that connects to the Discogs API to recommend vinyl records based on your answers. Discover what record you should spin next by taking a personalized music quiz.",
-    image: "images/discogs-quiz-app.png",
+    image: "images/discogsquiz.png",
     gitUrl: "https://github.com/Salame1996/Discogs-Roulette",
     tag: ["All", "Web", "Mobile"],
     previewUrl: "https://discogs-roulette.vercel.app/",
